@@ -1,0 +1,11 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Test Injection
+  description: '<div style="color:red; border:2px solid red; padding:10px;">TEST - HTML INJECTION WORKED!<br>If you see this, the configUrl parameter is vulnerable.</div>'
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
